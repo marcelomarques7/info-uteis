@@ -21,7 +21,7 @@ laravel new nome-do-projeto
 
 ## GIT
 #### Como este arquivo já foi versionado anteriormente é necessário limpar o cache local do repositório, para isso é necessário executar:
-git rm -r --cached <nome arquivo>
+git rm -r --cached nome arquivo
 git add .
 git commit -m "gitignore funcionando"
 
