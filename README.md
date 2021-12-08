@@ -19,6 +19,12 @@ composer install
 laravel new nome-do-projeto
 (Se der erro pode ser que o composer não esta no PATH no sistema)
 
+## GIT
+#### Como este arquivo já foi versionado anteriormente é necessário limpar o cache local do repositório, para isso é necessário executar:
+git rm -r --cached <nome arquivo>
+git add .
+git commit -m "gitignore funcionando"
+
 ## Outros
 #### Baixar template themes forest
 wget --mirror -p --convert-links -erobots=off URL
