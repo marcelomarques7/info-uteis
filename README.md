@@ -11,6 +11,8 @@ composer --version
 composer create-project laravel/laravel nome-do-projeto
 #### Instalador de Laravel no PC
 composer global require laravel/installer
+#### Instalar pasta vendor
+composer install
 
 ## Comandos LARAVEL
 #### Criar projeto com o Instalador do Laravel
