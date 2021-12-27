@@ -30,6 +30,10 @@ composer install
 laravel new nome-do-projeto
 ```
 (Se der erro pode ser que o composer não esta no PATH no sistema)
+#### Criar link de Storage Public
+```
+php artisan storage:link
+```
 
 ## GIT
 #### Como este arquivo já foi versionado anteriormente é necessário limpar o cache local do repositório, para isso é necessário executar:
